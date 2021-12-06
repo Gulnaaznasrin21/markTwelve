@@ -1,0 +1,60 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    margin-left:24% ;
+
+}
+.nan{
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 2%;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-color: rgb(202, 202, 228);
+    text-align: center;
+    color: blue;
+}
+.nav{
+    float: right;
+    margin-right: 30px;
+    font-size: 17px;
+    color: white;
+}
+.header{
+    background-color:rgb(164, 98, 226);
+    height: 80px;
+}
+.son{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-family: monospace;
+    padding-top: 0.7%;
+}
+.angle-input{
+    height: 35px;
+    width: 250px;
+   margin-left: 35%;
+   margin-top: 20px;
+   border-radius: 5px 5px 5px 5px;
+   border-color: blue;
+}
+
+
+#is-triangle-btn{
+    width: 130px;
+    height: 45px;
+    margin-top: 27px;
+    margin-left: 42%;
+    color: white;
+    background-color: blue;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 17px;
+
+}
+
+#output{
+    margin-top: 20px;
+    font-style: bold;
+}

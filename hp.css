@@ -1,0 +1,53 @@
+.nav{
+    float: right;
+    margin-right: 30px;
+    font-size: 17px;
+    color: white;
+}
+.header{
+    background-color:rgb(164, 98, 226);
+    height: 80px;
+}
+.son{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-family: monospace;
+    padding-top: 0.7%;
+}
+#non{
+    text-align: center;
+    color: blue;
+}
+/* .side-input{
+    margin-left: 43%;
+    margin-top: 20px;
+    width: 12%;
+    border-color: blue;
+} */
+#Hypotenuse-btn{
+        width: 250px;
+        height: 45px;
+        margin-top: 27px;
+        margin-left: 42%;
+        color: white;
+        background-color: rgb(103, 103, 223);
+        border-radius: 10px 10px 10px 10px;
+        font-size: 17px;
+       
+}
+
+#output{
+    text-align: center;
+    margin-right: 1%;
+    font-style: oblique;
+    font-size: 150%;
+    margin-top: 8%;
+}
+.side-input{
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 2%;
+    margin-top: 7px;
+    margin-left: 43%;
+    border-color: rgb(76, 76, 214);
+}
+
