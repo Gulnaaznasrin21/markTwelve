@@ -3,24 +3,30 @@
     margin-right: 30px;
     font-size: 17px;
     color: white;
+    margin-top: 1.2%;
 }
 .header{
-    background-color:rgb(164, 98, 226);
-    height: 80px;
+    background-color:rgb(76, 133, 150);
+    height: 110px;
+    margin-top: 5px;
+    border-radius: 0px 0px 0px 20px;
+   
 }
 .son{
     font-family: "Work Sans", sans-serif;
     color: white;
     font-family: monospace;
-    padding-top: 0.7%;
+    padding-top: 0.9%;
+    margin-left: 2%;
+    font-size: 70;
 }
 .cont{
     display: flex;
     flex-direction: column;
     width: 50vw;
     text-align: center;
-    margin-left:24% ;
-
+    margin-left:3% ;
+    margin-top: 9%;
 }
 .nan{
     border-radius: 10px 10px 10px 10px;
@@ -28,9 +34,11 @@
     margin-top: 10px;
     margin-left: 20%;
     margin-right: 20%;
-    border-color: rgb(202, 202, 228);
+    /* border-color: rgb(202, 202, 228); */
+    font-size: 150%;
     text-align: center;
-    color: blue;
+    color: rgb(76, 133, 150);
+    font-weight: bolder;
 }
 .angle-input{
     height: 35px;
@@ -38,7 +46,7 @@
    margin-left: 35%;
    margin-top: 20px;
    border-radius: 5px 5px 5px 5px;
-   border-color: blue;
+   border-color: rgb(76, 133, 150);
 }
 #is-triangle-btn{
     width: 130px;
@@ -46,7 +54,8 @@
     margin-top: 27px;
     margin-left: 42%;
     color: white;
-    background-color: blue;
+    font-weight: bolder;
+    background-color: rgb(76, 133, 150);
     border-radius: 5px 5px 5px 5px;
     font-size: 17px;
 
@@ -55,5 +64,13 @@
 #output{
     margin-top: 20px;
     font-style: bold;
+}
+.background{
+    background-image: url('lala.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 10; 
+       
+
 }
 

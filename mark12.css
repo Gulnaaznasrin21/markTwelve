@@ -3,42 +3,51 @@
     flex-direction: column;
     width: 50vw;
     text-align: center;
-    margin-left:24% ;
+    margin-left:22% ;
+    margin-top: 38px;
 
 }
 .nan{
     border-radius: 10px 10px 10px 10px;
     padding-top: 2%;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    border-color: rgb(202, 202, 228);
+    border-color: rgb(34, 116, 141);
     text-align: center;
-    color: blue;
+    color: whitesmoke;
 }
 .nav{
     float: right;
     margin-right: 30px;
     font-size: 17px;
     color: white;
+    margin-top: 1%;
+    
 }
 .header{
-    background-color:rgb(164, 98, 226);
-    height: 80px;
+    background-color:rgb(40, 107, 128);
+    height: 110px;
+    margin-top: 5px;
+    border-radius: 0px 0px 0px 20px;
+   
 }
 .son{
     font-family: "Work Sans", sans-serif;
     color: white;
     font-family: monospace;
-    padding-top: 0.7%;
+    padding-top: 0.9%;
+    margin-left: 2%;
+    font-size: 70;
 }
 .angle-input{
     height: 35px;
-    width: 250px;
+    width: 300px;
    margin-left: 35%;
    margin-top: 20px;
    border-radius: 5px 5px 5px 5px;
-   border-color: blue;
+   border-color: rgb(40, 107, 128);
+   background-color:lightgoldenrodyellow;
 }
 
 
@@ -46,15 +55,26 @@
     width: 130px;
     height: 45px;
     margin-top: 27px;
-    margin-left: 42%;
-    color: white;
-    background-color: blue;
+    margin-left: 44.5%;
+    color:cornsilk;
+    background-color: rgb(40, 107, 128);
     border-radius: 5px 5px 5px 5px;
-    font-size: 17px;
+    font-size: 20px;
+
 
 }
 
 #output{
     margin-top: 20px;
     font-style: bold;
+    
+    
+}
+
+.background{
+    background-image: url('triangle.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 10;    
+
 }
