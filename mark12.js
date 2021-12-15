@@ -11,12 +11,17 @@ function calculateSumOfAngles(angle1,angle2,angle3){
 }
 
 function isTriangle(){
-   const sumOfAngle =  calculateSumOfAngles((Number(inputs[0].value)),(Number(inputs[1].value)),(Number(inputs[2].value)));
-    if (sumOfAngle === 180){
-        outputEl.innerText = "yeah,It is a Triangle";
-    }else{
-        outputEl.innerText = "Oh oh! The angles aren't from a triangle";
+    if((Number(inputs[0].value))>0 && (Number(inputs[1].value))>0&& (Number(inputs[2].value))>0){
+            const sumOfAngle =  calculateSumOfAngles((Number(inputs[0].value)),(Number(inputs[1].value)),(Number(inputs[2].value)));
+        if (sumOfAngle === 180){
+            outputEl.innerText = "yeah,It is a Triangle";
+        }else{
+            outputEl.innerText = "Oh oh! The angles aren't from a triangle";
 
-    }
+        }
+    }else{
+        outputEl.innerText="you entered negative number please enter valid number"
+
+   }
 }
 isTriangleBtn.addEventListener("click",isTriangle);
